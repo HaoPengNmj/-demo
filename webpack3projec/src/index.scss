@@ -1,0 +1,17 @@
+$appColor:#57af09;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  color: $appColor;
+  border-bottom: 1px solid $appColor;
+}
+
+#canvas{
+  display: block;
+  background-color: black;
+  margin: auto;
+}
