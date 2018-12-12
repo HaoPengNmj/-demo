@@ -3,7 +3,7 @@ const path = require('path'),
   ExtractTextPlugin = require("extract-text-webpack-plugin"),//分离css
   uglify = require('uglifyjs-webpack-plugin');//压缩js  自带的
 const webpack = require('webpack');
-//ModuleConcatenationPlugin = new webpack.optimize.ModuleConcatenationPlugin();
+//ModuleConcatenationPlugin = new webpack.optimize.ModuleConcatenationPlugin();//scope hosting
 //new webpack.optimize.CommonsChunkPlugin 
 module.exports = {
   entry: {
