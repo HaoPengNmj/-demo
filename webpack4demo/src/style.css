@@ -1,0 +1,13 @@
+html,body{
+    height: 100%;
+}
+body{
+    background-color: #222;
+    color: greenyellow;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background: url('./pic.jpg');
+}
