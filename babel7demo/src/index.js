@@ -1,4 +1,4 @@
-var a = new Promise();
+//var a = new Promise();
 class Foo{
     constructor(){
         this.name = "hp";
